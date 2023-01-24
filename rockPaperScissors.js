@@ -3,7 +3,7 @@ const rock = "Rock";
 const paper = "Paper";
 const scissors = "Scissors";
 
-console.log(`You choose ${playermove}`);//here is my choise
+console.log(`You choose ${playermove}`);//here is my chooses
 
 if(playermove === "r" || playermove === "rock"){
     playermove = rock;
@@ -16,7 +16,7 @@ else{
     console.log(`Invalid input. Try again...`);
 }
 
-let computerRandomNumber = Math.floor(Math.random() * 3) + 1;
+let computerRandomNumber = Math.floor(Math.random() * 3) + 1;//computer chooses random
 
 switch(computerRandomNumber){ //switch to if-else!!!
     case 1:
